@@ -1,0 +1,62 @@
+.inicioSesion {
+    display: flex;
+    background-color: blue;
+    color: white;
+    justify-content: center;
+    border: 2px solid black;
+    align-items: center;
+    height: 100px;
+
+
+}
+
+.credenciales {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    height: 100%;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    padding-right: 62px;
+
+}
+
+.boton {
+    height: 20px;
+}
+
+.cred {
+    display: flex;
+    flex-direction: column;
+    padding-left: 600px;
+    align-items: flex-end;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.eslogan {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.registro {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    padding-left: 20px;
+
+}
+
+.nombreApellido {
+    display: flex;
+    justify-content: space-between;
+}
+
