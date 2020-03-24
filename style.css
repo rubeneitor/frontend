@@ -1,6 +1,6 @@
 .inicioSesion {
     display: flex;
-    background-color: blue;
+    background-color:#3b5998;
     color: white;
     justify-content: center;
     border: 2px solid black;
@@ -21,11 +21,26 @@
     display: flex;
     flex-direction: column;
     padding-right: 62px;
+    margin-top: 10px;
 
+}
+
+.email p {
+    margin-bottom: 0px;
+}
+
+.email input {
+    border: 1px solid #1D2A5B;
+    border-radius: 0px;
+    margin-top: 5px;
+    height: 20px;
 }
 
 .boton {
     height: 20px;
+    color: white;
+    background: #365899;
+    border: 1px solid #29487D;
 }
 
 .cred {
@@ -35,10 +50,16 @@
     align-items: flex-end;
 }
 
+.olvidarCont {
+    color: #9CB4D8;
+    margin-top: 7px;
+}
+
 .body {
     display: flex;
     justify-content: center;
     margin-top: 0;
+    background-color: #E9EBEE;
 }
 
 .eslogan {
@@ -50,13 +71,94 @@
 .registro {
     display: flex;
     flex-direction: column;
-    width: 380px;
+    width: 339px;
     padding-left: 20px;
 
 }
 
+
 .nombreApellido {
     display: flex;
+    width: 377px;
     justify-content: space-between;
 }
+
+.nombreApellido input {
+    height: 30px;
+    border: 1px solid #BDC7D8;
+}
+
+.numMovil {
+    padding-top: 10px;
+    width: 377px;
+    height: 30px;
+    
+ }
+
+
+ .numMovil input {
+     width: 377px;
+     height: 30px;
+ }
+
+
+ 
+.nContraseña {
+     padding-top: 15px;
+     width: 377px;
+     
+ }
+
+ .nContraseña input {
+    width: 377px;
+    height: 30px;
+ }
+
+ input {
+    border-radius: 4px;
+    
+}
+
+::-webkit-input-placeholder {
+    color: #999999;
+    font-size: 17px;
+ }
+
+ .condiciones {
+     font-size: 13px;
+     color: #777777;
+ }
+
+ .bRegistro {
+     width: 180px;
+     background-color: #68A253;
+     color: white;
+     font-size: 18px;
+     font-weight: bold;
+     border-radius: 5px;
+     height: 37px;
+     border: 1px solid #2C5115;
+ }
+
+ .lForm {
+     color: #90949C;
+     font-weight: bold;
+     font-size: 17px;
+ }
+
+
+ .rButton {
+     font-size: 19px;
+ }
+
+ .creaPagina {
+     width: 420px;
+     color: #66666F;
+ }
+
+
+
+
+
+
 
